@@ -101,7 +101,7 @@ img{
 }
 
 .logo1{
-  width: 8em;
+  width: 11em;
 }
 
 /*===== LAYOUT =====*/
@@ -339,13 +339,17 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
+  
 }
+
 .work__img img{
   transition: 1s;
   cursor: pointer;
+  filter: grayscale(20);
 }
 .work__img img:hover{
   transform: scale(1.1);
+  filter: grayscale(0);
 }
 
 /* ===== CONTACT =====*/
